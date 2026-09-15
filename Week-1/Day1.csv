@@ -1,0 +1,8 @@
+sale_id,customer_name,product,category,quantity,price,city,sale_date,salesperson
+1,Asha,Laptop,Electronics,1,55000.00,Bangalore,2026-09-01,Rahul
+2,Rahul,Mouse,Electronics,2,800.00,Mysore,2026-09-02,Priya
+3,Sneha,Keyboard,Electronics,1,1500.00,Bangalore,2026-09-03,Rahul
+5,Priya,Desk,Furniture,1,7000.00,Bangalore,2026-09-05,Rahul
+6,Kiran,Notebook,Stationery,5,120.00,Mysore,2026-09-06,Priya
+8,Vikram,Monitor,Electronics,1,12000.00,Bangalore,2026-09-08,Rahul
+10,Ravi,Headphones,Electronics,2,2500.00,Mysore,2026-09-10,NULL
