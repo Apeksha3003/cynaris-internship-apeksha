@@ -1,0 +1,6 @@
+employee,manager,department
+Anita,NULL,Management
+Rahul,Anita,Sales
+Priya,Anita,Sales
+Arjun,Rahul,Sales
+Sneha,Rahul,Sales
