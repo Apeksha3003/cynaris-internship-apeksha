@@ -1,0 +1,15 @@
+sale_id,salesperson,region,category,product,quantity,price,sale_amount
+1,Anita,North,Electronics,Laptop,2.0,55000,110000.0
+2,Rahul,North,Electronics,Mouse,10.0,800,8000.0
+3,Priya,South,Furniture,Chair,5.0,4500,22500.0
+4,Kiran,South,Electronics,Monitor,4.0,12000,48000.0
+5,Sneha,East,Stationery,Notebook,20.0,120,2400.0
+6,Arjun,East,Electronics,Keyboard,6.0,1500,9000.0
+7,Anita,North,Electronics,Headphones,8.0,2500,20000.0
+8,Priya,South,Furniture,Table,2.0,9000,18000.0
+9,Sneha,East,Stationery,Pen,50.0,20,1000.0
+10,Rahul,North,Electronics,Keyboard,5.0,1500,7500.0
+11,Kiran,South,Electronics,Monitor,5.0,12000,60000.0
+12,Arjun,East,Furniture,Chair,4.0,4500,18000.0
+13,Anita,North,Electronics,Laptop,5.0,55000,275000.0
+14,Rahul,North,Electronics,Mouse,8.0,800,6400.0
