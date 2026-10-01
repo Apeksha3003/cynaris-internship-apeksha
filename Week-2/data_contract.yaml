@@ -1,0 +1,70 @@
+# Data Contract — Sales Dataset
+
+contract:
+  name: sales_data_contract
+  version: "1.0"
+
+producer:
+  name: Apeksha
+  role: Data Analyst Intern
+
+consumer:
+  name: BI Dashboard
+  purpose: Sales analysis and visualization
+
+dataset:
+  name: cleaned_eda_sales_data
+  format: CSV
+
+schema:
+  columns:
+    - name: order_id
+      type: integer
+      nullable: false
+      unique: true
+
+    - name: region
+      type: string
+      nullable: false
+      allowed_values:
+        - North
+        - South
+        - East
+        - West
+
+    - name: product
+      type: string
+      nullable: false
+
+    - name: category
+      type: string
+      nullable: false
+
+    - name: quantity
+      type: number
+      nullable: false
+      minimum: 1
+
+    - name: price
+      type: number
+      nullable: false
+      minimum: 0
+
+    - name: sales
+      type: number
+      nullable: false
+      minimum: 0
+
+quality_requirements:
+  completeness: 100%
+  duplicate_order_ids: 0
+  invalid_regions: 0
+  invalid_quantities: 0
+
+delivery:
+  format: CSV
+  expected_frequency: "As required for BI dashboard refresh"
+
+governance:
+  pii_present: false
+  validation_tool: Great Expectations
